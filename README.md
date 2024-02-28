@@ -52,31 +52,35 @@
 7. [swg2hrun](https://github.com/shigebeyond/swg2hrun): 解析 Swagger api ，自动生成 HttpRunnerManager 测试用例，兼容 Swagger v2 与 v3 版本 
 
 ## web框架
-1. [jkmvc](https://github.com/shigebeyond/jkmvc): 用 kotlin 实现的java web 极速开发框架, 简单好用，开发效率很高
-1.1 精简的 mvc, 极少配置, 支持 ssh或 ssm 大部分功能, 还支持异步 servlet/ThreadLocal 安全/手脚架等;
-1.2 支持完备的数据库 ORM, ActiveRecord 模式, 支持 query builder /校验器/联合主键/复杂关联关系/多数据库分页/读写分离;
-1.3 支持 Elasticsearch ORM, 底层基于 jest, 提供 ORM 实体/仓库类/query dsl, 比市面上的 es client 库都要简单/灵活/易写;
-1.4 支持 jphp写 controller, 结合 php 的动态性与容错框架 jkguard, 可充当网关.
-
+1. [jkmvc](https://github.com/shigebeyond/jkmvc): 用 kotlin 实现的java web 极速开发框架
+```
+1 精简的 mvc, 少配置少注解, 支持 ssh或 ssm 大部分功能, 还支持异步 servlet/ThreadLocal 安全/手脚架等，简单易用;
+2 支持完备的数据库 ORM, ActiveRecord 模式, 支持 query builder /校验器/联合主键/复杂关联关系/多数据库分页/读写分离;
+3 支持 Elasticsearch ORM, 底层基于 jest, 提供 ORM 实体/仓库类/query dsl, 比市面上的 es client 库都要简单/灵活/易写;
+4 支持 jphp写 controller, 结合 php 的动态性与容错框架 jkguard, 可充当网关.
+```
 2. [skmvc](https://github.com/shigebeyond/skmvc): skmvc 框架: 使用 php 实现的 mvc/orm 框架 
 
 ## 微服务框架
 1. [jksoa](https://github.com/shigebeyond/jksoa): 用 kotlin 实现的 java 微服务框架，组件如下
-1.1 jksoa-rpc: 分布式异步 rpc 组件, 包含 registry / rpc-client / rpc-server 的3个子组件;
-1.2 jksoa-guard: 应用守护者组件, 提供了请求合并/流量统计/熔断/限流/降级/缓存等多功能的守护;
-1.3 jksoa-tracer: 分布式跟踪的组件, 支持 jaeger 实现;
-1.4 jksoa-dtx: 分布式事务的组件, 包含 dtx-mq / dtx-tcc 的2个子组件;
-1.5 支持 jphp 调用;
-1.6 支持接入k8s，并利用其服务发现机制，无需 registry.
+```
+1 jksoa-rpc: 分布式异步 rpc 组件, 包含 registry / rpc-client / rpc-server 的3个子组件;
+2 jksoa-guard: 应用守护者组件, 提供了请求合并/流量统计/熔断/限流/降级/缓存等多功能的守护;
+3 jksoa-tracer: 分布式跟踪的组件, 支持 jaeger 实现;
+4 jksoa-dtx: 分布式事务的组件, 包含 dtx-mq / dtx-tcc 的2个子组件;
+5 支持 jphp 调用;
+6 支持接入k8s，并利用其服务发现机制，无需 registry.
+```
 
 ## 通用的开发库
 1. [pyutilb](https://github.com/shigebeyond/pyutilb): python 开发工具类集，涵盖文件读写、日志、时间转换、线程池、图像识别、ThreadLocal 、原子操作、定时器、延迟属性、订阅文件变化、基于 zookeeper 实现的远程配置文件等工具类 
 2. [jkutil](https://github.com/shigebeyond/jkutil): 一些常用的轻量的java工具类
-2. [jkmq](https://github.com/shigebeyond/jkmq): 是封装了多个mq client, 简化mq的生产与消费, 目前仅支持 kafka / rabbitmq / redis, 同时仅 kafka 实现支持广播。 
-3. [jkjob](https://github.com/shigebeyond/jkjob): 是一个轻量级分布式作业调度库
-4. [jkguard](https://github.com/shigebeyond/jkguard): 是流量守护者, 提供了请求合并/流量统计/熔断/限流/降级/缓存等多功能的守护
-5. [jkcfg](https://github.com/shigebeyond/jkcfg): 配置信息同步器
-3. [jphp-java-ext](https://github.com/shigebeyond/jphp-java-ext): jphp 扩展，增强 jphp对 java 对象的操作能力; 已集成到 jkmvc/jksoa, 支持在 jvm 上使用 php 语言来实现 web与 rpc, 可做模板与网关等 
+3. [jkmq](https://github.com/shigebeyond/jkmq): 是封装了多个mq client, 简化mq的生产与消费, 目前仅支持 kafka / rabbitmq / redis, 同时仅 kafka 实现支持广播。 
+4. [jkjob](https://github.com/shigebeyond/jkjob): 是一个轻量级分布式作业调度库
+5. [jkguard](https://github.com/shigebeyond/jkguard): 是流量守护者, 提供了请求合并/流量统计/熔断/限流/降级/缓存等多功能的守护
+6. [jkcfg](https://github.com/shigebeyond/jkcfg): 配置信息同步器
+7. [jphp-java-ext](https://github.com/shigebeyond/jphp-java-ext): jphp 扩展，增强 jphp对 java 对象的操作能力; 已集成到 jkmvc/jksoa, 支持在 jvm 上使用 php 语言来实现 web与 rpc, 可做模板与网关等 
+8. [tenancy](https://github.com/shigebeyond/tenancy): 基于 jkmvc 框架的多租户实现, 支持租户识别、日志隔离、db 隔离、缓存隔离、文件系统隔离、分库等特性 
 
 ## 低代码开发平台
 1. GeekerPlus 低代码开发平台: 未开源，demo: http://jkerp.junianhua.com/jkerp ，账号是admin
@@ -87,17 +91,17 @@
 ## idea插件
 1. [jk-yapix](https://github.com/shigebeyond/jk-yapix): yapix(idea 插件)改造，支持解析 kotlin 代码、导出 jkmvc 框架的 api 接口、根据 jksoa 框架中的 java 服务接口来生成 php 映射类 
 
-## 监控
-1. [MonitorBoot](https://github.com/shigebeyond/MonitorBoot): yaml 驱动 linux 系统监控与 jvm 监控与告警 
-
 ## chrome插件
 1. [chrome-ext](https://github.com/shigebeyond/chrome-ext): chrome 扩展，支持以下功能：复制知乎回答、网页剪报、翻译、远程打开、备份标签页、导出 http 请求(导出格式有 curl/HttpRunner/HttpBoot/LocustBoot) 
 
-## 多租户
-1. [tenancy](https://github.com/shigebeyond/tenancy): 基于 jkmvc 框架的多租户实现, 支持租户识别、日志隔离、db 隔离、缓存隔离、文件系统隔离、分库等特性 
+## 监控
+1. [MonitorBoot](https://github.com/shigebeyond/MonitorBoot): yaml 驱动 linux 系统监控与 jvm 监控与告警 
 
-## 下载
+## 下载器
 1. [m3u8dwn](https://github.com/shigebeyond/m3u8dwn): m3u8视频下载器，支持多协程异步下载 
 
-## 小程序
+## 小程序组件
 1. [wechat-components](https://github.com/shigebeyond/wechat-components): 封装了常用的小程序组件
+
+## react-native组件
+TODO: 我开发的组件库已跟不上react-native频繁更新的版本，因此暂不列出
