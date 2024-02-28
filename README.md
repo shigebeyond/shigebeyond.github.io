@@ -1,5 +1,6 @@
 # shigebeyond 的开源技术
 ## 概述
+
 |  开源项目 | 介绍  |
 | ------------ | ------------ |
 | [k8scmd](https://github.com/shigebeyond/k8scmd) | 精简k8s与 Argo Workflows 命令 |
@@ -99,4 +100,4 @@
 1. [m3u8dwn](https://github.com/shigebeyond/m3u8dwn): m3u8视频下载器，支持多协程异步下载 
 
 ## 小程序
-[wechat-components](https://github.com/shigebeyond/wechat-components): 封装了常用的小程序组件
+1. [wechat-components](https://github.com/shigebeyond/wechat-components): 封装了常用的小程序组件
