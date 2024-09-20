@@ -19,6 +19,7 @@
 | [swg2hrun](https://github.com/shigebeyond/swg2hrun) | python | Swagger api转HttpRunnerManager用例 |
 | [jkcfg](https://github.com/shigebeyond/jkcfg) | python | 配置信息同步器 |
 | [m3u8dwn](https://github.com/shigebeyond/m3u8dwn) | python | m3u8视频下载器 |
+| [async4jsonrpc](https://github.com/shigebeyond/async4jsonrpc) | python | python的json rpc框架 |
 | [skmvc](https://github.com/shigebeyond/skmvc) | php | php mvc框架 |
 | [jkmvc](https://github.com/shigebeyond/jkmvc) | kotlin/java | java mvc框架 |
 | [jksoa](https://github.com/shigebeyond/jksoa) | kotlin/java | java微服务框架 |
@@ -71,6 +72,8 @@
 5 支持 jphp 调用;
 6 支持接入k8s，并利用其服务发现机制，无需 registry.
 ```
+
+2. [async4jsonrpc](https://github.com/shigebeyond/async4jsonrpc): 基于asyncio来实现json rpc的python异步框架
 
 ## 通用的开发库
 1. [pyutilb](https://github.com/shigebeyond/pyutilb): python 开发工具类集，涵盖文件读写、日志、时间转换、线程池、图像识别、ThreadLocal 、原子操作、定时器、延迟属性、订阅文件变化、基于 zookeeper 实现的远程配置文件等工具类 
