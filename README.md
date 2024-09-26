@@ -20,6 +20,7 @@
 | [jkcfg](https://github.com/shigebeyond/jkcfg) | python | 配置信息同步器 |
 | [m3u8dwn](https://github.com/shigebeyond/m3u8dwn) | python | m3u8视频下载器 |
 | [async4jsonrpc](https://github.com/shigebeyond/async4jsonrpc) | python | python的json rpc框架 |
+| [pynput_recorder](https://github.com/shigebeyond/pynput_recorder)  | python | 键鼠录制与重放 |
 | [skmvc](https://github.com/shigebeyond/skmvc) | php | php mvc框架 |
 | [jkmvc](https://github.com/shigebeyond/jkmvc) | kotlin/java | java mvc框架 |
 | [jksoa](https://github.com/shigebeyond/jksoa) | kotlin/java | java微服务框架 |
@@ -102,6 +103,9 @@
 
 ## 下载器
 1. [m3u8dwn](https://github.com/shigebeyond/m3u8dwn): m3u8视频下载器，支持多协程异步下载 
+
+## 键鼠录制与重放
+1. [pynput_recorder](https://github.com/shigebeyond/pynput_recorder): 键鼠录制与重放
 
 ## 小程序组件
 1. [wechat-components](https://github.com/shigebeyond/wechat-components): 封装了常用的小程序组件
