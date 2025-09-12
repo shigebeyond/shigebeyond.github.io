@@ -36,7 +36,7 @@
 | wechat-components | [github](https://github.com/shigebeyond/wechat-components)/[gitee](https://gitee.com/shigebeyond/wechat-components) | js | 封装了常用的小程序组件 |
 
 ## 相关视频
-1. MonitorBoot监控
+1 MonitorBoot监控
 
 [使用 MonitorBoot 监控进程存活](https://www.zhihu.com/zvideo/1637875128171290626)
 
@@ -48,7 +48,7 @@
 
 [使用MonitorBoot监控jvm gc log并报警](https://www.zhihu.com/zvideo/1637882765587828736)
 
-2. 自动化测试
+2 自动化测试
 
 [使用浏览器自动化技术SeleniumBoot+yaml来下载图片](https://www.zhihu.com/zvideo/1542455008884322304)
 
@@ -58,13 +58,13 @@
 
 [使用小程序自动化技术MiniumBoot+yaml来测试小程序](https://www.zhihu.com/zvideo/1542517561199009793)
 
-3. 压测
+3 压测
 
 [使用HttpBoot结合chrome-ext做接口自动化测试](https://www.zhihu.com/zvideo/1572950389674246144)
 
 [使用LocustBoot结合chrome-ext做压测](https://www.zhihu.com/zvideo/1573006826647560194)
 
-4. jktest自动化测试平台
+4 jktest自动化测试平台
 
 [jktest测试平台功能一览](https://www.zhihu.com/zvideo/1949820694104872604)
 
