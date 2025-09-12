@@ -58,9 +58,9 @@
 
 [使用小程序自动化技术MiniumBoot+yaml来测试小程序](https://www.zhihu.com/zvideo/1542517561199009793)
 
-3 压测
-
 [使用HttpBoot结合chrome-ext做接口自动化测试](https://www.zhihu.com/zvideo/1572950389674246144)
+
+3 压测
 
 [使用LocustBoot结合chrome-ext做压测](https://www.zhihu.com/zvideo/1573006826647560194)
 
